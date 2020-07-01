@@ -1,0 +1,24 @@
+{
+    "name": "features/banner",
+    "description": "create a universal banner",
+    "authors": [
+        {
+            "name": "Jef",
+            "email": "chenxm0592@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "php": ">=7.0"
+    },
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Features\\": "src/"
+        }
+    }
+}
